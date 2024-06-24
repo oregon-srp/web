@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home - Oregon State RP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Oregon SRP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-zbAROoD8k3kr+A8aUO4gnO4cJw3wGvw2PmgC0BX+nwQEpIHDngTn63S1l6+u96zqlTiEkN0pZM64GVX7xDdzqQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <div class="toggle-container">
-        <button id="mode-toggle" onclick="toggleMode()">
-            <span id="mode-icon" class="sun-icon">&#9728;</span> <!-- Unicode for sun icon -->
-        </button>
-    </div>
-    <div class="content">
-        <div class="main-gradient">Header</div>
-        <div class="main-gradient">text</div>
-    </div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="brand-logo">OSRP</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Join Now</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Oregon State Roleplay!</h1>
+                <p>Join a vibrant community of roleplayers dedicated to realistic roleplay's.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about creating an immersive environment for roleplay enthusiasts...</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oregon State Roleplay (OSRP). All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#">Useful Links</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
