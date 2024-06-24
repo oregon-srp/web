@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home - Oregon State RP</title>
 </head>
 <body>
-    <div class="main-gradient">Header</div>
+     <div class="toggle-container">
+        <button id="mode-toggle" onclick="toggleMode()">
+            <span id="mode-icon" class="sun-icon">&#9728;</span> <!-- Unicode for sun icon -->
+        </button>
+    </div>
+    <div class="content">
+        <div class="main-gradient">Header</div>
+        <div class="main-gradient">text</div>
+    </div>
 </body>
 </html>
