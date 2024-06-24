@@ -19,7 +19,7 @@ body {
 }
 
 /* Header styles */
-.header {
+h1 {
     background-image: linear-gradient(45deg, #008080, #005757); /* Dark teal gradient */
     color: #fff;
     padding: 10px 0;
@@ -65,7 +65,7 @@ body {
 
 /* Hero section styles */
 .hero {
-    background-image: url('hero-background.jpg');
+    background-image: url('https://th.bing.com/th/id/OIP.TuuqRBtuWWMRWmRoN0HCmwHaEK?w=321&h=180&c=7&r=0&o=5&pid=1.7');
     background-size: cover;
     background-position: center;
     color: #fff;
