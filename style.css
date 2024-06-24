@@ -20,8 +20,7 @@ body {
 
 /* Header styles */
 h1 {
-    background-image: linear-gradient(45deg, #008080, #005757); /* Dark teal gradient */
-    color: #fff;
+    color: linear-gradient(45deg, #008080, #005757);
     padding: 10px 0;
 }
 
@@ -126,7 +125,7 @@ h1 {
     background-color: #444;
     color: #fff;
     padding: 20px 0;
-    text-align: center;
+    text-align: bottom;
 }
 
 .footer-links {
