@@ -38,3 +38,30 @@ body {
         background-clip: text;
         color: transparent;
     }
+
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#mode-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+.sun-icon {
+    transition: transform 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.dark-mode #mode-icon {
+    transform: rotate(180deg); /* Rotate the moon icon */
+}
