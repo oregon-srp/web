@@ -8,8 +8,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #333;
+    color: #fff;
 }
 
 .container {
@@ -19,8 +19,8 @@ body {
 }
 
 /* Header styles */
-header {
-    background-color: #333;
+.header {
+    background-image: linear-gradient(45deg, #008080, #005757); /* Dark teal gradient */
     color: #fff;
     padding: 10px 0;
 }
@@ -122,8 +122,8 @@ header {
 }
 
 /* Footer styles */
-footer {
-    background-color: #333;
+.footer {
+    background-color: #444;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -158,7 +158,7 @@ footer {
     .nav-links {
         display: none;
         flex-direction: column;
-        background-color: #444;
+        background-color: #555;
         position: absolute;
         top: 60px;
         right: 0;
@@ -181,62 +181,4 @@ footer {
     .hamburger-menu {
         display: block;
     }
-}
-
-h1 {
-        font-family: 'Poppins', sans-serif;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-size: 65;
-    }
-
-     h2 {
-        font-family: 'Poppins', sans-serif;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-size: 35;
-    }
-
-    .main-gradient {
-        font-size: 4rem;
-        font-weight: 800; /* Poppins ExtraBold */
-        background-image: linear-gradient(0deg, #008080, #005757);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-    }
-
-.toggle-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-}
-
-#mode-toggle {
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 24px;
-    color: #333;
-}
-
-.sun-icon {
-    transition: transform 0.3s ease;
-}
-
-.dark-mode {
-    background-color: #333;
-    color: #f0f0f0;
-}
-
-.dark-mode #mode-icon {
-    transform: rotate(180deg); /* Rotate the moon icon */
 }
